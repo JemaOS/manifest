@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="jemaos"
+	  fetch="https://github.com/jemaos" />
+
+  <project path="jemaos/chromium/src"
+	   name="chromium"
+	   revision="refs/heads/jemaos-r114-dev"
+	   groups="jemaos,chromium"
+	   remote="jemaos">
+  </project>
+</manifest>
