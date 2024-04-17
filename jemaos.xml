@@ -35,29 +35,31 @@
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos" />
   </project>
 
-  <project path="jemaos/overlays/overlay-amd64-jemaos_iris"
+  <!--  <project path="jemaos/overlays/overlay-amd64-jemaos_iris"
     name="overlay-amd64-jemaos_iris"
     revision="refs/heads/r114-dev"
     groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos_iris" />
-  </project>
+  </project> -->
 
-  <project path="jemaos/overlays/overlay-amd64-jemaos_apu"
+
+ <!--  <project path="jemaos/overlays/overlay-amd64-jemaos_apu"
     name="overlay-amd64-jemaos_apu"
     revision="refs/heads/r114-dev"
     groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos_apu" />
-  </project>
+  </project> -->
 
-  <project path="jemaos/overlays/overlay-amd64-jemaos_vmware"
+  <!-- <project path="jemaos/overlays/overlay-amd64-jemaos_vmware"
     name="overlay-amd64-jemaos_vmware"
     revision="refs/heads/r114-dev"
     groups="jemaos,jemaos_overlays,board"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/overlay-amd64-jemaos_vmware" />
-  </project>
+  </project> -->
+
 
   <project path="jemaos/overlays/arch-amd64"
     name="arch-amd64"
@@ -125,13 +127,13 @@
     <linkfile src="." dest="src/overlays/project-jemaos-fingerprint" />
   </project>
 
-  <project path="jemaos/overlays/project-vmware"
+  <!--<project path="jemaos/overlays/project-vmware"
     name="project-vmware"
     revision="refs/heads/r114-dev"
     groups="jemaos,jemaos_overlays,project"
     remote="jemaos">
     <linkfile src="." dest="src/overlays/project-vmware" />
-  </project>
+  </project> -->
 
   <remove-project
     path="src/third_party/chromiumos-overlay"
